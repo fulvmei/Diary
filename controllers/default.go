@@ -19,5 +19,5 @@ type LoginController struct {
 }
 
 func (c *LoginController) Get() {
-	beego.Informational("LoginController  "+"        11111111111")
+	beego.Informational("LoginController  ")
 }
